@@ -1,1 +1,1 @@
-# Minor-Projects
+# Minor projects for university courses
