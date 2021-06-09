@@ -58,7 +58,6 @@ void MainWindow::make_copy(){
     this->paths.insert(current_photo, path);
     ui->photo_display->setPixmap(QPixmap(QString(this->paths[current_photo])));
     ui->file_path_LineEdit->setText(QString(this->paths[current_photo]));
-    //this->load_photos();
 }
 
 void MainWindow::delete_photo(){
